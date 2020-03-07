@@ -151,7 +151,49 @@ public class Game {
     public String checkGameWinner(char [][]grid){
         String result = "None";
         //Student code goes here ...
+        char [] collect = {};
+        for(int i=0;i<3;i++){
+            //vertical
+            if(grid[i][0]==grid[i][1]&&grid[i][1]==grid[i][2]){
+                collect = addX(collect, grid[i][0]);
+            }
+            //horizontal
+            if(grid[0][i]==grid[1][i]&&grid[1][i]==grid[2][i]){
+                collect = addX(collect, grid[0][i]);
+            }
+        }
+        //diagonal
+        if(grid[0][0]==grid[1][1]&&grid[2][2]==grid[1][1] || grid[0][2]==grid[1][1]&&grid[1][1]==grid[2][0]){
+            collect = addX(collect, grid[1][1]);
+        }
+        System.out.println(new String(collect).indexOf('x') > -1);
+        if(new String(collect).indexOf('x') > -1){
+            if(new String(collect).indexOf('o') > -1){
+                result = "Tie";
+            }else {
+                result = "X wins";
+            }
+        }else if (new String(collect).indexOf('o') > -1) {
+            result = "O wins";
+        }
         return result;
+    }
+
+    // Function to add x in arr
+    public static char[] addX(char[] arr, char x)
+    {
+        if(x!='-'){
+            int n = arr.length;
+            // create a new array of size n+1
+            char[] newarr = new char[n + 1];
+
+            for (int i = 0; i < n; i++)
+                newarr[i] = arr[i];
+
+            newarr[n] = x;
+            return newarr;
+        }
+        return arr;
     }
 
     /**
