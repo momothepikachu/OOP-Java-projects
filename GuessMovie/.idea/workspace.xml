@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4d23ffc-5fe2-49df-b7b0-5a62e56a5ebe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuessMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NumberGame/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NumberGame/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NumberGame/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NumberGame/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NumberGame/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NumberGame/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NumberGame/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NumberGame/NumberGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NumberGame/out/production/NumberGame/NumberGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NumberGame/src/NumberGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 1 - TicTacToe/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 1 - TicTacToe/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 1 - TicTacToe/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myFirstJavaProject/src/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myFirstJavaProject/src/ContactManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 1 - TicTacToe/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 1 - TicTacToe/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 1 - TicTacToe/src/main/java/com/udacity/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 1 - TicTacToe/src/main/java/com/udacity/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessMovie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,23 +14,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movies.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="45">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GuessMovie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+            <state relative-caret-position="307">
+              <caret line="66" column="99" selection-start-line="66" selection-start-column="99" selection-end-line="66" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#357#365#0" expanded="true" />
+                <element signature="e#1258#1269#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +45,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>coveredName</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -100,7 +88,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583618122640" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583623431122" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +126,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -148,7 +135,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -169,21 +156,22 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movies.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GuessMovie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+        <state relative-caret-position="307">
+          <caret line="66" column="99" selection-start-line="66" selection-start-column="99" selection-end-line="66" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#357#365#0" expanded="true" />
+            <element signature="e#1258#1269#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
