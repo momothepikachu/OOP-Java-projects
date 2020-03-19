@@ -1,0 +1,15 @@
+building_tools=2000
+building_tools=2000
+building_tools=2000
+building_tools=5000
+building_tools=5000
+building_tools=2000
+building_tools=1000
+building_tools=5000
+building_tools=6000
+shelter_equipment=5000
+construction_equipment=5000
+plants=1000
+steel=8000
+books=1000
+water=5000
